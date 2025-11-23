@@ -28,6 +28,12 @@ canvas {
   overflow: hidden;
 }
 
+.name {
+  text-transform: uppercase;
+  color: #03C160;
+  font-style: italic;
+}
+
 .container div.six {
   top: 15vh;
   z-index: 1;
@@ -61,7 +67,7 @@ canvas {
 
 .two {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 .three {
@@ -94,6 +100,10 @@ canvas {
   background-color: #03C160;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.text-5 {
+  font-size: 1.5rem;
 }
 
 .five p {
@@ -353,6 +363,8 @@ canvas {
   padding: 1rem 1.6rem;
   border: 1px solid #03C160;
   border-radius: 5px;
+  background-color: #7dd175;
+  color: #fff;
 }
 
 .startSign .button:hover {
